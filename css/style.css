@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.form {
+    width: 90%;
+    background-color: #14C8C9;
+    margin: auto;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+
+}
+
+.form-heading {
+    color: white;
+    font-family: system-ui;
+    padding: 15px;
+    text-align: center;
+}
+
+.inputs,
+.inputs-2 {
+    padding: 10px;
+    /* margin: 10px; */
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 0;
+
+}
+
+.inputs {
+    display: block;
+    width: 100%;
+    margin: 10px 0px 10px 0;
+}
+
+
+.inputs-2 {
+    width: 47%;
+    display: block;
+    float: left;
+    margin: 0px 9px 10px 0px;
+
+}
+
+
+.form-inputs,
+.details {
+
+    display: inline-block;
+    box-sizing: border-box;
+    width: 40%;
+    float: left;
+
+}
+
+.clear {
+    clear: both;
+}
+
+.details {
+    float: right;
+    margin-top: 50px;
+
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+h3 {
+    font-size: 18px;
+    color: white;
+}
+
+.details p,
+a {
+    font-size: 10px;
+    color: white;
+
+}
+
+.details a {
+    text-decoration: none;
+    color: yellow;
+    margin-left: 8px;
+}
+
+.submit-button {
+    margin-left: auto;
+    margin-right: 0;
+    display: block;
+    padding: 12px;
+    background-color: #FFEB3E;
+    border-radius: 5px;
+    border: 0;
+}
+
+.company-numbers {
+    color: white;
+    margin-left: 5%;
+}
+
+.address a {
+    margin: 0%;
+}
